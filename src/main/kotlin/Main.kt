@@ -17,5 +17,11 @@ fun main() {
             currentVal = item
         }
     }
+    if (count == 1) {
+        itog += currentVal
+    } else {
+        itog += "$currentVal$count"
+    }
     println(itog)
+
 }
